@@ -1,0 +1,290 @@
+body {
+	font-family: "Times New Roman";
+	margin: 0px;
+	margin-bottom:0px; 
+	background-image:url(img/back2.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: static;
+}
+.head{	  
+	background-color: rgba(244,168,59,0.6);
+
+}
+.Top{
+	text-align: center;	
+	width: 500px;
+	margin-left: 450px;
+	padding-top: 20px;
+}
+
+
+.Top > h1{
+	float: right;
+	font-size: 3em;	
+}
+.Avatar{	
+    clear: both;
+    border-radius: 50%;
+    width: 120px;
+    height:120px;
+    object-fit: cover;
+    object-position: center;    
+}
+
+#Menu{	
+	display: flex;
+	justify-content: space-around;	
+}
+h2:hover, h3:hover{
+	background-color:#A9A9A9;
+	cursor: pointer;
+}
+.on{
+	border-bottom:  2px solid black;
+	border-radius: 5px;
+	background-color:#808080;
+}
+/*.Information{
+	float: right;	
+	margin-right:  393px;
+	border:2px solid #AAAAAA;	
+	border-radius: 20%;
+	background-color: rgba(245,154,35,0.5);	
+}*/
+/*.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}*/
+main{
+	width:1200px; 	
+	margin-left: auto;
+	margin-right: auto;
+}
+.Basic{
+    float: left;
+	margin-top: 20px;
+	border: 2px solid #AAAAAA;
+	width: 300px;
+	background-color: rgba(242,202,143,0.6); 
+}
+.Basic h4{
+	padding-left: 10px;
+}
+.Basic > h3{
+	font-weight: bold;
+}
+.right-main{
+   float: right;
+   /*border: 2px solid black;*/
+   width: 800px;
+   background-color: rgba(242,202,143,0.8);
+   margin-right: 20px;
+   margin-top: 20px;   
+}
+.Project{
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding-left: 20px;
+	background-color: rgba(242,202,143,1);
+	border-radius: 10px;
+}
+.Project>h3{
+	font-weight: bold;
+}
+p > h5{
+	text-indent: 50px;
+}
+.Skill{
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding-left: 20px;
+	background-color: rgba(242,202,143,1);
+	border-radius: 10px;
+}
+.Skill > h3{
+	font-weight: bold;
+}
+
+.Quote{
+	
+	width: 600px;
+	margin-left: 100px;
+	margin-top: 20px;
+	padding-left: 20px;
+	background-color: rgba(242,202,143,1);
+	border-radius: 10px;
+}
+
+.Quote > h3{
+	font-weight: bold;
+}
+
+.hidden{
+	display: none;
+}
+
+.Note {
+	border: 1px solid grey;
+	margin: 10px;
+	background-color: rgba(242,202,143,0.8);
+	
+	/*display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+*/
+}
+.note1{
+	width: 600px;
+	float: left;
+	margin: 30px;
+
+	
+}
+.name{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.note2{
+	width: 400px;
+	float: right;
+	margin: 30px;
+}
+.note3{
+	width: 400px;
+	float: right ;
+	margin: 30px;
+}
+.Note:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.tips{
+	display: flex;
+	justify-content: space-around;
+}
+
+footer{
+	clear: both;
+	margin-top: 20px;
+	background-color: rgb(255,152,3);	
+	height: 50px;
+	
+}
+.modal{
+	display: none; /* 默认隐藏 */
+    position: fixed; /* 固定定位 */
+    z-index: 1; /* 设置在顶层 */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal1{
+	display: none; /* 默认隐藏 */
+    position: fixed; /* 固定定位 */
+    z-index: 1; /* 设置在顶层 */
+    left: 50%;
+    top: 50%;
+	transform: translate(-50%,-50%);
+    width: 400;
+    height: 400;
+    overflow: auto; 
+    /*background-color: rgb(0,0,0); */
+    /*background-color: rgba(0,0,0,0.4); */
+}
+.modal-content{
+	background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+.modal-content1{
+	background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%; 
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close1:hover,
+.close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#chat-btn:hover{
+	
+	background-color: grey;
+}
+.container {
+	display: none;
+    border: 1px solid black;
+    background-color: rgb(230, 230, 230);
+
+    }
+.container>.list-chat {
+        width: 290px;
+        height: 200px;
+        list-style-type: none;
+        background-color: white;
+       /* margin: auto;*/
+        overflow: hidden;
+    }
+.container>form {
+
+        width: 300px;
+        height: 50px;
+        /*margin: 20px auto;*/
+    }
+/*.container>form>textarea {
+        float: left;
+    }*/
+.container>form button {
+        width: 50px;
+        height: 30px;
+        color: white;
+        border: none;
+        background-color: royalblue;
+        float: left;
+
+        /*margin: 37px 7px;*/
+    }
+.container>form button:hover {
+        color: white;
+        background-color: tomato;
+    }
+.container>form button:active {
+        background-color: rebeccapurple;
+    }
+.container:after {
+	content: "";
+	display: table;
+	clear: both;
+}
